@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnaJModel</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="design-de-moda.png" type="image/png">
+
+
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+        <style>
+        /* Define uma altura fixa para a div do slide */
+        .carousel-item {
+            height: 50vh; /* Ajuste a altura conforme necessário */
+        }
+
+        /* Força a imagem a ocupar o espaço da div, mantendo a proporção */
+        .carousel-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; /* Mantém a imagem proporcional, preenchendo a div */
+        }
+
+        /* Centraliza o conteúdo no meio do slide */
+        .carousel-caption {
+            top: 30%;
+            transform: translateY(-50%);
+        }
+    </style>
+
+</head>
+<body>
+     <header class="menu-mobile">
+
+         <div class="menu-toggle" id="menu-toggle">
+                         ☰
+        </div>
+     
+
+      
+            <h1 class="fade-in">ANAJMODA</h1>
+            <nav id="menu">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+
+    </header>
+
+    <main>
+ 
+       <div id="banner">
+
+          <div class="banner_principal">
+            <div class="banner_texto">
+              <h1>Olá! Sou a Ana Julia Franco, estilista e designer de moda.</h1>
+              <p>Aqui apresento minhas ideias para transformar seu look desejado ou criá-lo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div id="segundo_banner">
+            <div class="banner_texto2">
+                <p>"O design é onde a arte encontra a função - e a moda ganha vida."</p>
+                <p>Conheça todas as possibilidades e ideias, não se limite aos padrões, esteja sempre pronto para o NOVO.</p>
+            </div>
+        </div>
+
+ 
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores do carrossel -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        
+            <!-- Slides do carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="tendecias.png" class="d-block w-100" alt="Primeiro Slide">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                       
+                      
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="inovação.png" class="d-block w-100" alt="Segundo Slide">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="novidade.png" class="d-block w-100" alt="Terceiro Slide">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                      
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Controles do carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+
+
+       <div id="cards">
+  <div class="card">
+    <img src="img6.jpg" alt="Design">
+    <div class="overlay">
+      <div class="texto">
+        <h2>Design</h2>
+        <p>Criações sofisticadas e autorais para você se destacar.</p>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img7.jpg" alt="Estilo">
+    <div class="overlay">
+      <div class="texto">
+        <h2>Estilo</h2>
+        <p>Elegância e personalidade em cada look criado.</p>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="img4.jpg" alt="Inovação">
+    <div class="overlay">
+      <div class="texto">
+        <h2>Inovação</h2>
+        <p>Visão de futuro aliada ao melhor do design, pronto para o NOVO.</p>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <section id="terceiro_banner">
+  <div class="banner_conteudo">
+    <h2>Coleção Inédita 2025</h2>
+    <button>Ver Mais</button>
+  </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer-DA">
+            
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#"> Linkdin </a>
+                <a href="#"> Contato</a>
+                
+            </div>   
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+    <script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

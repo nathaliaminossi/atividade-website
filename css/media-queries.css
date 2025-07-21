@@ -1,0 +1,175 @@
+body {
+  font-size: 18px;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------- Desktop padrão ---------------- */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* ---------------- Tablet (601px - 1024px) ---------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .banner_texto h1 {
+    font-size: 28px;
+  }
+}
+
+/* ---------------- Mobile até 768px ---------------- */
+@media (max-width: 768px) {
+  /* Menu hamburguer */
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #797b7d;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 10;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-mobile {
+  background-color: white; /* parte cinza */
+  padding: 10px 0;         /* reduz espaço vertical interno */
+}
+  .menu-toggle {
+    display: block;
+  }
+
+  nav a {
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+
+  /* Header layout no mobile */
+  header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 9999; 
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+  }
+
+  /* Ajustes gerais para banners e texto */
+  #banner, 
+  #segundo_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    width: 80%;
+    position: relative;
+      background-size: cover;
+  
+  }
+ 
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 15px;
+  }
+  
+  .banner_principal {
+     min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-position: center;
+    
+  }
+  
+  
+   .banner_texto {
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 15px;
+    border-radius: 0px;
+    text-align: center;
+    max-width: 90%;
+  }
+.banner_texto2 {
+ 
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 1px;
+    font-size: 2px;
+    line-height: 1,5;
+  
+}
+
+.banner_texto p {
+  font-size: 16px;
+}
+
+  .banner_texto h1,
+  .banner_conteudo h2 {
+     font-size: 20px;
+    line-height: 1.4;
+    color: black;
+    z-index: 2;
+  }
+
+ #segundo_banner h2,
+  #segundo_banner p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .banner_conteudo button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cards {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+  

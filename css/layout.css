@@ -1,0 +1,172 @@
+header {
+    display: flex;
+    position: fixed; 
+    top: 0;           
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color:white ;
+    color: rgb(58, 60, 61);
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    transition: background-color 1s ease;
+    width: 100%;
+    background-color: white; /* cor de fundo visível */
+    z-index: 9999; /* sempre acima de outros elementos */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombrazinha elegante */
+
+}
+
+
+main {
+    background-color: white;
+    width: 100%;
+
+  
+}
+.banner_texto {
+    display: flex;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+#banner {
+    display: flex;
+    height: 1000px;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    background-image: url(fundobanner1.avif);
+    background-color: #c0c2c2dc; 
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    
+}
+.banner_principal {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 80px 20px; /* altura para o conteúdo respirar */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #000000;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 90px 20px;
+    gap: 30px;
+    background-image: url(details.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+
+}
+  
+
+#segundo_banner {
+    display: flex;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 60px;
+    background-color: #e9ecef;
+  
+}
+
+
+#terceiro_banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('fundobanner2.avif'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo_terceiro_banner {
+  text-align: center;
+  color: white;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.conteudo_terceiro_banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.conteudo_terceiro_banner button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.conteudo_terceiro_banner button:hover {
+  background-color: black;
+  color: white;
+}
+
+.banner_texto2 {
+    display: flex;
+    max-width: 2000px;
+    gap: 400px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: end;
+    text-align:center;
+ 
+}
+.logo {
+    position: absolute;
+    top: 40vh;
+    left: 20vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+
+footer {
+  background-color: #62676B;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  position: relative; 
+  bottom: 0; 
+  width: 100%;
+  z-index: 1;
+}

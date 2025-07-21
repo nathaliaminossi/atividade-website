@@ -1,0 +1,56 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+
+    background-color: white;
+}
+/*HEADER*/
+header a {
+    color: white;
+    text-decoration: none;
+    transition: tranform 0.5s ease;
+}
+
+header a:hover {
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+  }
+ header h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+   
+}
+
+main h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+  h1 {
+    font: italic bold 20px verdana, geneva, tahoma, sans-serif;
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 60px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    
+  }
